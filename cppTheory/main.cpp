@@ -6,9 +6,17 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    cout << "Hello, World!\n";
+    cout << "Test" <<endl;
+    int a = 10;
+    for (int i = 0; i <= 10; i++) {
+        a++;
+        cout << a << endl;
+    }
+    
     return 0;
 }
