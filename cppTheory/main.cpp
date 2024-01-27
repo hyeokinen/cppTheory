@@ -8,15 +8,18 @@
 #include <iostream>
 using namespace std;
 
+int hap(int a, int b)
+{
+    int c;
+    c = a + b;
+    return c;
+}
+
+
 int main() {
     
-    cout << "Hello, World!\n";
-    cout << "Test" <<endl;
-    int a = 10;
-    for (int i = 0; i <= 10; i++) {
-        a++;
-        cout << a << endl;
-    }
-    
+    int result;
+    result = hap(7,19);
+    cout << result << endl;
     return 0;
 }
